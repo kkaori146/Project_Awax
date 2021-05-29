@@ -1,3 +1,6 @@
+/*
+CSS DE INTERFACE COMO UM TODO
+*/
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +9,7 @@
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x:hidden ;
 }
 
 header{
@@ -62,6 +66,18 @@ width: 100px;
     border-bottom: 5px solid #b28756;
     color: #CCC;
 }
+.button{
+    display: inline-block;
+    background-color: #B28756;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
 .banner{
     height: calc(100vh - 100px);
     background-color:#333;
@@ -101,18 +117,7 @@ background-color: rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
     margin-top: 20px;
 }
-.banner a {
-    display: block;
-    background-color: #B28756;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius:20px ;
-}
+
 .banner .sliders-pointers {
     width: 100vw;
     height: 20px;
@@ -134,6 +139,127 @@ cursor: pointer;
 .banner .pointer.active{
     background-color: #B28756;
 }
+.default {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
+    .default .section-title,
+    .default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    .default .section-title {
+    font-size: 20px;
+    
+    }
+    .default .section-desc{
+        font-size: 12px;
+        color: #CCC;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        
+    }
+    .default .section-body{
+        max-width: 1140px;
+        margin: auto;
+    
+    }
+    .default.light {
+        background-color: #F7F7F7;
+    
+    }
+    .default.light .section-title,
+    .default.light .section-body {
+        color: #000;
+    }
+    .default.dark{
+        background-color: #000;
+    }
+    .default.dark .section-title,
+    .default.dark .section-body {
+    color: #FFF;
+    }
+
+
+
+
+
+
+/*
+CSS DE ÁREAS ESPECÍFICAS
+*/
+.section-aboutus {
+    display: flex;
+}
+.section-aboutus--left {
+    flex:1;
+}
+.section-aboutus--left p{
+font-size: 14px;
+line-height: 25px;
+}
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+}
+.section-aboutus--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 .fade {
     -webkit-animation-name: fade;
@@ -151,6 +277,25 @@ cursor: pointer;
     from {opacity: .4}
     to {opacity: 1}
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
